@@ -77,8 +77,7 @@ while Versuch < 7 and index < len(Wort):
                 if Wort[i] == Buchstabe:
                     if ErrateneBuchstaben[i] == "_":
                      ErrateneBuchstaben[i] = Buchstabe
-                     break
-            index += 1
+                     index += 1
 
         else :
             Versuch = Versuch + 1
